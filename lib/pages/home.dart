@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   List<Widget> getPosts() {
     List<Widget> posts = [];
     for (List post in userPosts) {
-      // posts.add(getPost(post()));
+      posts.add(getPost(post));
     }
     return posts;
   }
